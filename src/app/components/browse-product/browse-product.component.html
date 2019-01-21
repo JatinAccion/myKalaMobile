@@ -1,0 +1,166 @@
+<div class="container scrollContainer">
+  <div class="mob-pageHeader">
+    <div class="row">
+      <div class="col-3 text-center" routerLink="/home">
+        <i class="fa fa-angle-left" aria-hidden="true" *ngIf="!showCategoryFilterBar"></i>
+        <span *ngIf="!showCategoryFilterBar">back</span>
+      </div>
+
+      <div class="col-6 text-center pl-0 overflowEllipsis">
+        {{selectedTilesData.category.name}}
+      </div>
+
+      <div class="col-3 pl-2">
+        <span class="float-right exploreFC" (click)="toggleCFPanel()">
+          <img *ngIf="!showCategoryFilterBar" src="./assets/images/modifyImg.png" />
+          <span style="font-family: open_sansbold; color:#ffffff" *ngIf="showCategoryFilterBar">x</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 categoryFilterBar" [hidden]="!showCategoryFilterBar">
+        <div class="col-12 pt-4 pl-2 pr-2 float-left mb-3 categoryFilterBtnBarWrapper">
+          <button class="btn categoryFilterBarBtn" [ngStyle]="{'background': showCategoryPanel ? '#b1b1b1' : 'none'}"
+            (click)="setArea()">
+            <i class="fa fa-globe" aria-hidden="true"></i> Category
+          </button>
+          <button class="btn categoryFilterBarBtn" [ngStyle]="{'background': showFilterPanel ? '#b1b1b1' : 'none'}"
+            (click)="enableFilterPanel()">
+            <i class="fa fa-filter" aria-hidden="true"></i> Filter
+          </button>
+        </div>
+
+        <div class="col-12 pl-2 pr-2 float-left">
+          <!--Side Bar Category Panel : Starts-->
+          <div class="catTiles" [hidden]="!showCategoryPanel">
+            <div class="catTiles-sub" id="mySidenav" *ngIf="categoryList.length > 0">
+              <ul class="category_tiles" *ngFor="let category of categoryList">
+                <li [ngStyle]="{'opacity': category.isProductAvailable == undefined ? '0.5' : '1'}">
+                  <span (click)="category.isProductAvailable && loadSubcategory($event, category)" class="pr-3">{{category.name}}</span>
+                  <ul class="cat_subMenu" *ngIf="category.expanded">
+                    <li [ngStyle]="{'opacity': subcategory.isProductAvailable == undefined ? '0.5' : '1'}" *ngFor="let subcategory of subCategory"
+                      (click)="subcategory.isProductAvailable && refreshSubcategory(subcategory)">{{subcategory.name}}</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--Side Bar Category Panel : Ends-->
+
+          <!--Side Bar Filter Panel-->
+          <div id="mySidenavFilter" class="sidenavFilter" [hidden]="!showFilterPanel">
+            <!--Select and Data Capsules Wrapper : Starts-->
+            <div class="selectionWrapperFilter" *ngFor="let data of filteredData">
+              <!--Select Drop Down-->
+              <div class="w-100" *ngIf="data.level == 0;else next">
+                <select class="form-control filterSelectTag" (change)="changeFilter($event.target.value, data)">
+                  <!-- <option selected disabled>Sub Category</option>
+                  <ng-container *ngFor="let subCategory of data.data">
+                    <option *ngIf="subCategory.isProductAvailable != undefined" [value]="toStr(subCategory)">{{subCategory.subCategoryName}}</option>
+                  </ng-container> -->
+                  <optgroup label="Sub Category">
+                    <option selected disabled hidden>Please select a Sub Category</option>
+                    <ng-container *ngFor="let subCategory of data.data">
+                      <option [disabled]="subCategory.isProductAvailable == undefined" [value]="subCategory.isProductAvailable != undefined ? toStr(subCategory) : null">
+                        {{subCategory.isProductAvailable != undefined ? subCategory.subCategoryName :
+                        subCategory.subCategoryName.concat(' - Coming Soon')}}
+                      </option>
+                    </ng-container>
+                  </optgroup>
+                </select>
+
+                <div class="selectedDataCapsules" *ngFor="let value of data.selectedValues">
+                  <span class="selectedDataCapsulesContent">{{value.subCategoryName}}</span>
+                  <span (click)="deleteFilter(value, $event)" class="selectedDataCapsulesDelete">x</span>
+                </div>
+              </div>
+              <!--Select Drop Down-->
+
+              <!--Select Drop Down With Option Group-->
+              <ng-template #next>
+                <div class="w-100">
+                  <select class="form-control filterSelectTag" (change)="changeFilter($event.target.value, data)">
+                    <optgroup label="{{newData.label}}" *ngFor="let newData of data.data">
+                      <option selected disabled hidden>Please select a Type</option>
+                      <ng-container *ngFor="let type of newData.data">
+                        <option [disabled]="type.isProductAvailable == undefined" [value]="type.isProductAvailable != undefined ? toStr(type) : null">
+                          {{type.isProductAvailable != undefined ? type.productTypeName : type.productTypeName.concat('
+                          - Coming Soon')}}
+                        </option>
+                      </ng-container>
+                    </optgroup>
+                  </select>
+
+                  <div class="selectedDataCapsules" *ngFor="let value of data.selectedValues">
+                    <span class="selectedDataCapsulesContent">{{value.productTypeName}}</span>
+                    <span (click)="deleteFilter(value, $event)" class="selectedDataCapsulesDelete">x</span>
+                  </div>
+                </div>
+              </ng-template>
+              <!--Select Drop Down With Option Group-->
+            </div>
+            <!--Select and Data Capsules Wrapper : Ends-->
+
+            <!--Apply and Clear Buttons-->
+            <div class="w-100 float-left">
+              <button class="btn filterButtons" (click)="enableFilterPanel(); applyFilters()">
+                Apply Filter
+              </button>
+              <button class="btn filterButtons" (click)="clearAllFilters()">
+                Clear Filter
+              </button>
+            </div>
+            <!--Apply and Clear Buttons-->
+          </div>
+          <!--Side Bar Filter Panel-->
+        </div>
+      </div>
+
+      <ng4-loading-spinner [threshold]="1000" [template]="template" [zIndex]="999"></ng4-loading-spinner>
+    </div>
+  </div>
+  <div class="contentHeight"></div>
+
+  <ng-template #noData>
+    <div class="row">
+      <span class="d-inline offerStatus expireSoon">Coming Soon
+        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+      </span>
+    </div>
+  </ng-template>
+
+  <!--Type Section-->
+  <div class="title mt-3">
+    <h2 *ngIf="selectedTilesData.subcategory.length == undefined">
+      {{selectedTilesData.place.name}}
+      <span class="colorGray">{{selectedTilesData.subcategory.name}}
+      </span>
+    </h2>
+    <span class="float-right mt-4 web-category">
+      <a (click)="openNav()">
+        <img src="./assets/images/category.png" />
+      </a>
+    </span>
+  </div>
+  <!--Type Section-->
+  <div class="row browseProduct" *ngIf="tilesData.length >0">
+    <div class="example col-6" *ngFor="let tile of tilesData" (click)="viewDetails(tile)">
+      <div class="prodImageContainer prodImageContainer_xl">
+        <img [src]="tile.product.mainImageSrc" class="product_hover img-fluid">
+        <div class="hover_panel">
+          <h5>{{tile.product.productName}}</h5>
+          <span style="font-size:17px;margin-right:10px;">{{tile.product.kalaPrice | currency}}</span>
+          <span style="font-size:14px;text-decoration:line-through;margin-right:100px;">{{tile.product.retailPrice |
+            currency}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 text-center">
+    <button *ngIf="showMoreBtn && !loader" (click)="loadTypes('loadMore')" class="btn btn_red_right mb-4" style="margin-top: 20px !important">show
+      more</button>
+    <!-- <span class="btn btn btn_red_right" (click)="getOffers()">get offers</span> -->
+  </div>
+</div>

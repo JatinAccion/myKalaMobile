@@ -1,0 +1,38 @@
+<div class="header bgimage headerParent">
+  <div class="banner_content">
+    <div *ngIf="navigateToPlace" class="col-12 text-left homeBack" style="color: #ffffff" (click)="reloadPlaces()">
+      <i class="fa fa-angle-left" aria-hidden="true"></i>
+      <span>back</span>
+    </div>
+
+    <img src="./assets/images/kala_logo.png" class="img-fluid webLogo" />
+    <img src="./assets/images/logo.png" class="img-fluid mobLogo" />
+    <h1>Take the Search out of Shopping</h1>
+    <h4 style="line-height: 23px" class="pt-4">Your Online Shopping Experience. Personalized.</h4>
+
+    <app-elastic-search-bar class="d-block"></app-elastic-search-bar>
+
+  </div>
+  <ng4-loading-spinner [threshold]="1000" [template]="template" [zIndex]="999"></ng4-loading-spinner>
+</div>
+
+<section id="homegarden" class="py-5" class="homegarden pt-2">
+  <div class="container banner_title">
+    <h1>Explore. Bid. Create & Buy.</h1>
+    <h4>Are you ready to shop your own way?</h4>
+    <app-breadcrums [breadCrums]="breadCrums" (selectTile)="tileSelected($event, 'IsBc')"></app-breadcrums>
+    <app-tiles [tilesData]="tiles" (selectTile)="tileSelected($event, undefined)"></app-tiles>
+  </div>
+</section>
+
+<section id="homeFAQ" class="py-5">
+  <a class="centerArrow nav-link" href="#FAQ">
+    <i class="fa fa-angle-down" aria-hidden="true"></i>
+  </a>
+</section>
+
+<div class="row">
+  <a class="topArrow nav-link" href="#top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
+</div>
