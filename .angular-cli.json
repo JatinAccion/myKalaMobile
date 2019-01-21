@@ -23,9 +23,12 @@
             "prefix": "app",
             "styles": [
                 "styles.css",
-                "responsive.css"
+                "responsive.css",
+                "../node_modules/swiper/dist/css/swiper.css"
             ],
-            "scripts": [],
+            "scripts": [
+                "../node_modules/swiper/dist/js/swiper.js"
+            ],
             "environmentSource": "environment.ts",
             "environments": {
                 "dev": "environment.ts",
