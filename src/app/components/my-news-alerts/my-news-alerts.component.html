@@ -42,6 +42,9 @@
                       Your offers are set to expire in
                       <strong>24 hours</strong>! Click here to view them now
                     </span>
+                    <span class="d-inline float-left offerStatus w-100 mt-2 mb-3">
+                      <small class="colorlightGray float-right timeElement">{{alert.alertDate | date:'MMMM d, h:mm a'}}</small>
+                    </span>
                   </ng-template>
                   <!--Expiring Soon-->
 
@@ -52,7 +55,7 @@
                     <ng-template #activeOffer>
                       <span class="d-inline float-left offerStatus active">Offer Active</span>
                     </ng-template>
-                    <small class="colorlightGray float-right timeElement">{{getFullDate(alert.alertDate)}}</small>
+                    <small class="colorlightGray float-right timeElement">{{alert.alertDate | date:'MMMM d, h:mm a'}}</small>
                   </span>
                   <!--Offer Status-->
                 </div>
@@ -73,7 +76,7 @@
                   <div class="mb-2">Your item(s) have shipped! Estimated delivery on:
                     {{getDeliveryDate(alert.orderItems.deliveryMethod, alert.orderItems.orderShippedDate)}}</div>
                   <div class="col-12 text-right p-0">
-                    <small class="colorlightGray timeElement">{{getFullDate(alert.alertDate)}}</small>
+                    <small class="colorlightGray timeElement">{{alert.alertDate | date:'MMMM d, h:mm a'}}</small>
                   </div>
                   <div class="row pl-3 pr-3 pt-3 pb-0">
                     <div class="col-5 pl-0">
@@ -124,7 +127,7 @@
                     <strong>{{alert.reviewedProductName}}</strong>
                   </div>
                   <div class="col-12 text-right p-0">
-                    <small class="colorlightGray timeElement">{{getFullDate(alert.alertDate)}}</small>
+                    <small class="colorlightGray timeElement">{{alert.alertDate | date:'MMMM d, h:mm a'}}</small>
                   </div>
                   <div class="row pl-3 pr-3 pt-3 pb-0">
                     <div class="col-5">
@@ -154,7 +157,7 @@
                     spread the word.
                   </div>
                   <div class="col-12 text-right p-0">
-                    <small class="colorlightGray timeElement">{{getFullDate(alert.alertDate)}}</small>
+                    <small class="colorlightGray timeElement">{{alert.alertDate | date:'MMMM d, h:mm a'}}</small>
                   </div>
                   <div class="row pl-3 pr-3 pt-3 pb-0">
                     <div class="col-5 pl-0">

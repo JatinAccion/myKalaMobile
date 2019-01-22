@@ -67,7 +67,8 @@ export class LeaveReviewComponent implements OnInit {
         if (event.target.files[0]) {
             let fileToUpload: File = null;
             fileToUpload = event.target.files[0];
-            if (fileToUpload.size > 1048576) this.core.openModal(this.fileSizeTooBig);
+            /** 1 MB = 1048576 and 5MB = 5242880 */
+            if (fileToUpload.size > 5242880) this.core.openModal(this.fileSizeTooBig);
             else {
                 var reader = new FileReader();
                 reader.onload = (event: any) => {

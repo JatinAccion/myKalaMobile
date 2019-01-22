@@ -1219,7 +1219,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
                     this.core.onlyPassword = true;
                     this.questionPopUps = [];
                     //this.ForgotPassword();
-                    var fPResponse = await this.fpService.getUserByEmailId(this.loginEmailId);
+                    var fPResponse = await this.fpService.getUserByEmailId(this.loginEmailId.toLowerCase());
                     fPResponse = this.filterEmailRes(fPResponse, 'forgotPassword');
                     this.questionPopUps.push(new QuestionPopUp("Resend Email"));
                     this.core.footerSwapCUI(false, true);
@@ -1231,7 +1231,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
                     this.conversations.push(new Conversation(MsgDirection.In, "No problem, we’re resending your password reset email now."));
                     this.core.onlyPassword = true;
                     this.questionPopUps = [];
-                    var fPResponse = await this.fpService.getUserByEmailId(this.loginEmailId);
+                    var fPResponse = await this.fpService.getUserByEmailId(this.loginEmailId.toLowerCase());
                     fPResponse = this.filterEmailRes(fPResponse, 'forgotPassword');
                     this.questionPopUps.push(new QuestionPopUp("Resend Email"));
                     this.core.footerSwapCUI(false, true);
@@ -1746,7 +1746,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
                     this.invalidInputText = 'Please enter a valid email address';
                     return;
                 }
-                var emailOutApi = await this.fpService.getUserByEmailId(this.loginEmailId);
+                var emailOutApi = await this.fpService.getUserByEmailId(this.loginEmailId.toLowerCase());
                 emailOutApi = this.filterEmailRes(emailOutApi, 'default');
                 if (!emailOutApi) {
 
@@ -1803,7 +1803,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
                         return;
                     }
                     if (this.conversations[this.conversations.length - 2].data == 'Login') {
-                        var emailOutApi = await this.fpService.getUserByEmailId(this.loginEmailId);
+                        var emailOutApi = await this.fpService.getUserByEmailId(this.loginEmailId.toLowerCase());
                         emailOutApi = this.filterEmailRes(emailOutApi, 'default');
                         if (!emailOutApi) {
 
@@ -1813,7 +1813,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
                     }
                     else {
                         this.conversations.push(new Conversation(MsgDirection.Out, userInputChat.userInput));
-                        var emailOutApi = await this.fpService.getUserByEmailId(this.loginEmailId);
+                        var emailOutApi = await this.fpService.getUserByEmailId(this.loginEmailId.toLowerCase());
                         emailOutApi = this.filterEmailRes(emailOutApi, 'signup');
                         ifSignUp = true;
                     }
@@ -1940,6 +1940,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
         this.usr.phone = "";
         this.usr.roleName = [];
         this.usr.roleName.push("consumer");
+        this.usr.emailId = this.usr.emailId.toLowerCase();
         this.joinKalaService.joinKalaStepOne(this.usr).subscribe(res => {
             console.log(res);
             this.userInfo = res;
@@ -2155,6 +2156,7 @@ export class SearchResultComponent implements OnInit, DoCheck, OnDestroy {
         this.usr.phone = "";
         this.usr.roleName = [];
         this.usr.roleName.push("consumer");
+        this.usr.emailId = this.usr.emailId.toLowerCase();
         this.joinKalaService.joinKalaStepOne(this.usr).subscribe(res => {
             console.log(res);
             localStorage.removeItem("userInfo");
