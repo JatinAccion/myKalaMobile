@@ -491,6 +491,7 @@ export class CoreService {
     localStorage.removeItem('searchProducts');
     localStorage.removeItem('searchedWithoutSuggestion');
     localStorage.removeItem('fromES');
+    localStorage.removeItem('forReview');
   }
 
   zoomInSlider() {
