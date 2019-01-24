@@ -44,13 +44,18 @@ var app = {
 };
 
 window.handleOpenURL = function (url) {
-    let customURL = url.split("#")[1];
-    console.log('Printing URL::::::::' + url);
-    console.log('Printing New URL::::::::' + customURL);
-    console.log('Printing Location Hash::::::::' + location.hash);
-    
-    if (customURL.indexOf('thank') > -1 || customURL.indexOf('reset-password') > -1) location.hash = '#/mail' + customURL;
-    else location.hash = '#/' + customURL;
+    /** For iOS */
+    if (navigator && navigator.userAgent.indexOf('iPhone') > -1) {
+        let customURL = url.split("#")[1];
+        if (customURL.indexOf('thank') > -1 || customURL.indexOf('reset-password') > -1) location.hash = '#/mail' + customURL;
+        else location.hash = '#/' + customURL;
+    }
+    /** For Android */
+    else if (navigator.userAgent.indexOf('Android') > -1) {
+        let customURL = url.split("mykala://")[1];
+        if (url.indexOf('thank') > -1 || url.indexOf('reset-password') > -1) location.hash = '#/mail/' + customURL;
+        else location.hash = '#/' + customURL;
+    }
 }
 
 app.initialize();

@@ -30,6 +30,16 @@
             }
           ]
         }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "CFBundleURLTypes": [
+            {
+              "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>mykala</string></array></dict></array>",
+              "count": 1
+            }
+          ]
+        }
       }
     }
   },
@@ -47,6 +57,10 @@
       "PACKAGE_NAME": "com.kala.mykala"
     },
     "cordova-plugin-stripe": {
+      "PACKAGE_NAME": "com.kala.mykala"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "mykala",
       "PACKAGE_NAME": "com.kala.mykala"
     }
   },
@@ -107,6 +121,14 @@
       "clobbers": [
         "cordova.plugins.stripe"
       ]
+    },
+    {
+      "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+      "file": "plugins/cordova-plugin-customurlscheme/www/ios/LaunchMyApp.js",
+      "pluginId": "cordova-plugin-customurlscheme",
+      "clobbers": [
+        "window.plugins.launchmyapp"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -114,6 +136,7 @@
     "cordova-plugin-device": "2.0.1",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-stripe": "1.5.3"
+    "cordova-plugin-stripe": "1.5.3",
+    "cordova-plugin-customurlscheme": "4.3.0"
   }
 }

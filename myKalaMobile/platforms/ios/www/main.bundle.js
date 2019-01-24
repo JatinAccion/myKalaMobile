@@ -15616,6 +15616,7 @@ var CoreService = (function () {
         localStorage.removeItem('searchProducts');
         localStorage.removeItem('searchedWithoutSuggestion');
         localStorage.removeItem('fromES');
+        localStorage.removeItem('forReview');
     };
     CoreService.prototype.zoomInSlider = function () {
         this.isSliderZoomedIn = true;

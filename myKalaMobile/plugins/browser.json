@@ -21,6 +21,10 @@
     },
     "cordova-plugin-stripe": {
       "PACKAGE_NAME": "com.kala.mykala"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "mykala",
+      "PACKAGE_NAME": "com.kala.mykala"
     }
   },
   "dependent_plugins": {}

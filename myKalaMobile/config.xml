@@ -79,6 +79,13 @@
     </platform>
     <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
     <preference name="Orientation" value="portrait" />
+    <plugin name="cordova-plugin-customurlscheme" spec="4.3.0">
+        <variable name="URL_SCHEME" value="mykala" />
+        <variable name="ANDROID_SCHEME" value=" " />
+        <variable name="ANDROID_HOST" value=" " />
+        <variable name="ANDROID_PATHPREFIX" value="/" />
+    </plugin>
+    <plugin name="LaunchMyApp" value="nl.xservices.plugins.LaunchMyApp" />
     <engine name="ios" spec="^4.5.5" />
     <engine name="browser" spec="^5.0.4" />
     <engine name="android" spec="^7.1.1" />

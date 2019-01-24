@@ -21,6 +21,13 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.kala.mykala"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "mykala",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "com.kala.mykala"
     }
   },
   "dependent_plugins": {}
