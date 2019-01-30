@@ -20,12 +20,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -52,20 +52,20 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
@@ -172,32 +172,32 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_unknown.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-mdpi-v4/ic_unknown.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_discover.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_discover.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -216,12 +216,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_cvc.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_cvc.png"
-    },
-    {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_cvc.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_cvc.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -288,12 +288,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_diners.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_jcb.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-ldpi-v4/ic_jcb.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -324,12 +324,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_diners.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-hdpi-v4/ic_diners.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/xml_camera_provider_paths.xml.flat",
@@ -356,12 +356,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_diners.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_diners.png"
-    },
-    {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_diners.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_diners.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat",
@@ -380,12 +380,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_cvc_amex.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_cvc_amex.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_visa.xml.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-anydpi-v21/ic_visa.xml"
+    },
+    {
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_cvc_amex.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_cvc_amex.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -404,12 +404,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -460,12 +460,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
@@ -480,20 +480,20 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -516,12 +516,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-ldpi-v4/ic_visa.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
@@ -580,12 +580,12 @@
         "source": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -624,12 +624,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_cvc_amex.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-mdpi-v4/ic_cvc_amex.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_error_amex.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xxhdpi-v4/ic_error_amex.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_cvc_amex.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-mdpi-v4/ic_cvc_amex.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
@@ -676,12 +676,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-v23/abc_control_background_material.xml"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_cvc_amex.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-hdpi-v4/ic_cvc_amex.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -700,12 +700,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
@@ -900,16 +900,16 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_error_amex.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_cvc.png.flat",
@@ -1028,12 +1028,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_discover.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-ldpi-v4/ic_discover.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_discover.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-ldpi-v4/ic_discover.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -1080,16 +1080,16 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_jcb.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_jcb.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_jcb.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_jcb.png"
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1112,12 +1112,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-mdpi-v4/ic_error_amex.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1160,12 +1160,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xxhdpi-v4/ic_unknown.png"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_visa.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/stripe-android-4.1.2.aar/b39a0dc9c28effba053c92c1fd94c8b5/res/drawable-xhdpi-v4/ic_visa.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1224,12 +1224,12 @@
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Volumes/Untitled/KalaMobileApp/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/accion/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f4ba56aed3c7bf244c208f41baa4e8f1/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",

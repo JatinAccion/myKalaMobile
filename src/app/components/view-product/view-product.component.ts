@@ -502,22 +502,22 @@ export class ViewProductComponent implements OnInit {
       this.core.openModal(this.viewProductModal);
     }
     else {
-      if (window.localStorage['esKeyword']) {
-        let place = [], category = [], subcategory = [], levelSelection;
-        place = new Array<SearchDataModal>();
-        category = new Array<SearchDataModal>();
-        place.push(new SearchDataModal(this.selectedProduct.product.productHierarchyWithIds[0].levelId, this.selectedProduct.product.productHierarchyWithIds[0].levelName, this.selectedProduct.product.productHierarchyWithIds[0].levelName, this.selectedProduct.product.productHierarchyWithIds[0].levelCount));
-        category.push(new SearchDataModal(this.selectedProduct.product.productHierarchyWithIds[1].levelId, this.selectedProduct.product.productHierarchyWithIds[1].levelName, this.selectedProduct.product.productHierarchyWithIds[1].levelName, this.selectedProduct.product.productHierarchyWithIds[1].levelCount));
-        subcategory.push(new SearchDataModal(this.selectedProduct.product.productHierarchyWithIds[2].levelId, this.selectedProduct.product.productHierarchyWithIds[2].levelName, this.selectedProduct.product.productHierarchyWithIds[2].levelName, this.selectedProduct.product.productHierarchyWithIds[2].levelCount));
-        if (window.localStorage['levelSelections'] == undefined) levelSelection = new Object();
-        else levelSelection = JSON.parse(window.localStorage['levelSelections']);
-        levelSelection.place = place[0];
-        levelSelection.category = category[0];
-        levelSelection.subcategory = subcategory[0];
-        levelSelection.subType = {};
-        levelSelection.type = [];
-        window.localStorage['levelSelections'] = JSON.stringify(levelSelection);
-      }
+      //if (window.localStorage['esKeyword'])
+      let place = [], category = [], subcategory = [], levelSelection;
+      place = new Array<SearchDataModal>();
+      category = new Array<SearchDataModal>();
+      place.push(new SearchDataModal(this.selectedProduct.product.productHierarchyWithIds[0].levelId, this.selectedProduct.product.productHierarchyWithIds[0].levelName, this.selectedProduct.product.productHierarchyWithIds[0].levelName, this.selectedProduct.product.productHierarchyWithIds[0].levelCount));
+      category.push(new SearchDataModal(this.selectedProduct.product.productHierarchyWithIds[1].levelId, this.selectedProduct.product.productHierarchyWithIds[1].levelName, this.selectedProduct.product.productHierarchyWithIds[1].levelName, this.selectedProduct.product.productHierarchyWithIds[1].levelCount));
+      subcategory.push(new SearchDataModal(this.selectedProduct.product.productHierarchyWithIds[2].levelId, this.selectedProduct.product.productHierarchyWithIds[2].levelName, this.selectedProduct.product.productHierarchyWithIds[2].levelName, this.selectedProduct.product.productHierarchyWithIds[2].levelCount));
+      if (window.localStorage['levelSelections'] == undefined) levelSelection = new Object();
+      else levelSelection = JSON.parse(window.localStorage['levelSelections']);
+      levelSelection.place = place[0];
+      levelSelection.category = category[0];
+      levelSelection.subcategory = subcategory[0];
+      levelSelection.subType = {};
+      levelSelection.type = [];
+      window.localStorage['levelSelections'] = JSON.stringify(levelSelection);
+      //if (window.localStorage['esKeyword'])
       this.core.isSearchWithoutSuggestion = false;
       this.core.IsGetoffers = true;
       this.route.navigateByUrl('/search-result');

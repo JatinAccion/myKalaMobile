@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jan 24 18:05:08 IST 2019
+#Mon Jan 28 11:34:09 IST 2019
 20.base=/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/assets/debug
 143.base=/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/assets/debug
 237.path=www/assets/font-awesome/fonts/fontawesome-webfont.woff
