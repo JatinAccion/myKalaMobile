@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 30 22:56:03 IST 2019
+#Wed Jan 30 23:10:21 IST 2019
 20.base=/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/assets/release
 143.base=/Volumes/Untitled/Kala/myKalaMobile/myKalaMobile/platforms/android/app/build/intermediates/assets/release
 237.path=www/assets/images/info-button.png
